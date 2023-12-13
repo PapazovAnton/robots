@@ -17,8 +17,6 @@ public class Base : MonoBehaviour
         {
             _robots.Enqueue(robot);
         }
-
-        Debug.Log(_resourceCount);
     }
 
     private void OnEnable()
